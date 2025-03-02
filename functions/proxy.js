@@ -10,7 +10,7 @@ exports.handler = async function(event, context) {
         'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`
       },
       body: JSON.stringify({
-        model: "gpt-4",
+        model: "g-67aadf09ceb88191b906bdd695bf90f6-zappscribe",
         messages: [{ role: "user", content: prompt }]
       })
     });
