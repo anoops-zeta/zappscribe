@@ -7,7 +7,7 @@ exports.handler = async function(event, context) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.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}`
+        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`
       },
       body: JSON.stringify({
         model: "g-67aadf09ceb88191b906bdd695bf90f6-zappscribe",
